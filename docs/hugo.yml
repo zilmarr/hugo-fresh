@@ -3,7 +3,7 @@ languageCode: "en-us"
 title: "Hugo Fresh documentation"
 module:
   imports:
-    path: github.com/StefMa/hugo-fresh
+    path: github.com/zilmarr/hugo-fresh
 
 params:
   navbarlogo:
@@ -17,7 +17,7 @@ params:
     image: illustrations/worker.svg
   navbar:
   - title: GitHub
-    url: https://github.com/StefMa/hugo-fresh
+    url: https://github.com/zilmarr/hugo-fresh
     button: true
 
 markup:

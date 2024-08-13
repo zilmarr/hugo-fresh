@@ -19,7 +19,7 @@ hugo new site my-site && cd my-site
 git init
 
 # Add this theme as a git submodule
-git submodule add https://github.com/StefMa/hugo-fresh.git themes/hugo-fresh
+git submodule add https://github.com/zilmarr/hugo-fresh.git themes/hugo-fresh
 
 # Add the dependency to the css files as a git submodule and checkout version 0.9.4
 git submodule add https://github.com/jgthms/bulma.git themes/bulma
@@ -36,7 +36,7 @@ curl -O https://raw.githubusercontent.com/StefMa/hugo-fresh/master/exampleSite/h
 
 # Configure the theme as git submodule
 # Remove the 'module' section in the `hugo.yml` and add
-# theme: 'hugo-fresh' (See also https://github.com/StefMa/hugo-fresh/issues/175#issuecomment-1863358700)
+# theme: 'hugo-fresh' (See also https://github.com/zilmarr/hugo-fresh/issues/175#issuecomment-1863358700)
 
 # Change the path of the bulma css files
 # Replace `github.com/jgthms/bulma` with `bulma` in
